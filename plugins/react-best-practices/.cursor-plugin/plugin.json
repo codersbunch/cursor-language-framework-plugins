@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "description": "Enforce React hooks rules, component composition patterns, performance optimizations, and refactor class components to modern hooks.",
   "author": {
-    "name": "CodersBunch",
-    "email": "praveen@codersbunch.com"
+    "name": "CoderBunch",
+    "email": "praveen@coderbunch.com"
   },
   "license": "MIT",
   "keywords": ["react", "hooks", "performance", "components", "typescript", "nextjs"],

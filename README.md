@@ -11,7 +11,7 @@ Hooks rules, component composition, performance optimization, class-to-hooks ref
 Type hints everywhere, mypy strict mode, auto-annotation, Pydantic model conversion. Runs mypy on every file edit.
 
 ## Author
-Praveen · praveen@codersbunch.com
+Praveen · praveen@coderbunch.com
 
 ## License
 MIT

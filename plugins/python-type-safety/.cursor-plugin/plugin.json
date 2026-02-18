@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "description": "Enforce type hints everywhere, mypy strict mode, auto-add annotations, and convert dicts to Pydantic models.",
   "author": {
-    "name": "CodersBunch",
-    "email": "praveen@codersbunch.com"
+    "name": "CoderBunch",
+    "email": "praveen@coderbunch.com"
   },
   "license": "MIT",
   "keywords": ["python", "type-hints", "mypy", "pydantic", "typing", "dataclasses"],

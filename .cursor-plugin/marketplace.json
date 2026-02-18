@@ -1,8 +1,8 @@
 {
   "name": "language-framework-plugins",
   "owner": {
-    "name": "CodersBunch",
-    "email": "praveen@codersbunch.com"
+    "name": "CoderBunch",
+    "email": "praveen@coderbunch.com"
   },
   "metadata": {
     "description": "Language and framework specific plugins: React Best Practices and Python Type Safety",
