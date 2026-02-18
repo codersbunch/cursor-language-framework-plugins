@@ -1,0 +1,24 @@
+{
+  "name": "language-framework-plugins",
+  "owner": {
+    "name": "CodersBunch",
+    "email": "praveen@codersbunch.com"
+  },
+  "metadata": {
+    "description": "Language and framework specific plugins: React Best Practices and Python Type Safety",
+    "version": "1.0.0",
+    "pluginRoot": "plugins"
+  },
+  "plugins": [
+    {
+      "name": "react-best-practices",
+      "source": "./plugins/react-best-practices",
+      "description": "React hooks rules, component composition, performance patterns, and modern refactoring"
+    },
+    {
+      "name": "python-type-safety",
+      "source": "./plugins/python-type-safety",
+      "description": "Type hints, mypy strict mode, Pydantic models, and auto-annotation"
+    }
+  ]
+}

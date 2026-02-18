@@ -1,0 +1,11 @@
+{
+  "hooks": {
+    "afterFileEdit": [
+      {
+        "command": "./scripts/run-mypy-check.sh",
+        "matcher": ".py",
+        "description": "Run mypy type check after editing Python files"
+      }
+    ]
+  }
+}

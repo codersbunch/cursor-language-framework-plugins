@@ -1,0 +1,13 @@
+{
+  "name": "python-type-safety",
+  "displayName": "Python Type Safety",
+  "version": "1.0.0",
+  "description": "Enforce type hints everywhere, mypy strict mode, auto-add annotations, and convert dicts to Pydantic models.",
+  "author": {
+    "name": "CodersBunch",
+    "email": "praveen@codersbunch.com"
+  },
+  "license": "MIT",
+  "keywords": ["python", "type-hints", "mypy", "pydantic", "typing", "dataclasses"],
+  "logo": "assets/logo.svg"
+}

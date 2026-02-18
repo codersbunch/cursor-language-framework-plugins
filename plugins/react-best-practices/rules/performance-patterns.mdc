@@ -1,0 +1,16 @@
+---
+description: React performance optimization patterns to prevent unnecessary re-renders
+alwaysApply: true
+---
+
+react-performance:
+
+- Avoid creating new objects or arrays inline in JSX props - they cause re-renders on every render
+- Move static data outside components so it is not recreated on every render
+- Use useCallback for functions passed as props to memoized child components
+- Use useMemo for expensive computations, not for every value
+- Avoid anonymous functions in event handlers on frequently rendered lists
+- Use React.memo on pure presentational components that receive stable props
+- Virtualize long lists with react-window or react-virtual - never render 1000+ DOM nodes
+- Avoid deeply nested component trees - flatten where possible
+- Use React DevTools Profiler to measure before optimizing - never guess

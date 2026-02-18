@@ -1,0 +1,11 @@
+{
+  "hooks": {
+    "afterFileEdit": [
+      {
+        "command": "./scripts/check-hooks-rules.sh",
+        "matcher": ".tsx|.jsx",
+        "description": "Check React hooks rules after editing component files"
+      }
+    ]
+  }
+}

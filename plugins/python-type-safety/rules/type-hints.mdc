@@ -1,0 +1,17 @@
+---
+description: Python type hint standards for fully typed, mypy-strict codebases
+alwaysApply: true
+---
+
+python-type-safety:
+
+- All function parameters and return types must have type annotations
+- Never use bare `dict`, `list`, `tuple` - use `dict[str, Any]`, `list[int]`, `tuple[str, ...]`
+- Use `Optional[X]` or `X | None` for nullable values - never leave unannotated
+- Prefer `TypedDict` or Pydantic models over plain `dict` for structured data
+- Use `Protocol` for duck typing instead of `Any`
+- Enable mypy strict mode: `--strict` flag in mypy.ini
+- Never use `# type: ignore` without a comment explaining why
+- Use `Final` for constants, `ClassVar` for class-level attributes
+- Use `Literal` types for string enums instead of plain `str`
+- Run mypy in CI - type errors must block merges
